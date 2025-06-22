@@ -4,17 +4,27 @@
   <body>
 
     <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-        {% for post in site.data.sections %}
-            <div class="carousel-inner">
-                <div class="active item">
+        <ol class="carousel-indicators">
+            {% for post in site.data.sections %}
+                <li data-target="#carousel" data-slide-to="{{post.id}}"></li>
+            {% endfor %}
+        </ol>
+        
+        <div class="carousel-inner">
+            {% for post in site.data.sections %}
+                <div class="item">
                     <div class="caption zoomIn wow animated">
                         <h2>{{post.title}}<br/><strong>{{post.description}}</strong></h2>
                     </div>
                     <img class="" src="../css/img/{{post.image}}" alt="">
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>        
+        <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
     </div>
+
+
 
   </body>
 </html>
