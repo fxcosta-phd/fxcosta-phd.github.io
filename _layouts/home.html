@@ -3,17 +3,24 @@
   {% include head.html %}
   <body>
     <h1>In construction...</h1>
-    <p>Updated at 12h25 of July 5th</p>
+    <p>Updated at 14h15 of July 5th</p>
 
     <!-- Homepage Carousel -->
     <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
             {% for post in site.data.sections %}
                 <li data-target="#carousel" data-slide-to="{{post.id}}"></li>
             {% endfor %}
         </ol>
         
         <div class="carousel-inner">
+            <div class="active item">
+                <div class="caption zoomIn wow animated">
+                    <h2>Science<br/><strong>Understanding the patterns of complexity in nature from biomedicine to societies</strong></h2>
+                </div>
+                <img class="" src="../img/fxc_science.jpg" alt="">
+            </div>
             {% for post in site.data.sections %}
                 <div class="item">
                     <div class="caption zoomIn wow animated">
