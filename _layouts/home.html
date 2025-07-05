@@ -3,6 +3,7 @@
   {% include head.html %}
   <body>
 
+    <!-- Homepage Carousel -->
     <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
             {% for post in site.data.sections %}
@@ -16,7 +17,7 @@
                     <div class="caption zoomIn wow animated">
                         <h2>{{post.title}}<br/><strong>{{post.description}}</strong></h2>
                     </div>
-                    <img class="" src="../css/img/{{post.image}}" alt="">
+                    <img class="" src="../img/{{post.image}}" alt="">
                 </div>
             {% endfor %}
         </div>        
@@ -24,6 +25,7 @@
         <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
     </div>
 
+    <!-- OTHER -->
 
 
   </body>

@@ -1,3 +1,0 @@
-{% include bootstrap.min.css %}
-{% include agency.css %}
-{{ content }}
