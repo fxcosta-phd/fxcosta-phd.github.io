@@ -1,18 +1,18 @@
 - title: Science
   description: Understanding the patterns of complexity in nature from biomedicine to societies
-  image: fxc_science.jpg
+  image: fxc_science.png
 
 
 - title: Teaching
   description: Sharing acquired knowledge to the next generations
-  image: fxc_teaching.jpeg
+  image: fxc_teaching.png
 
 
 - title: Technology
   description: Developping softwares and robotics for science and art
-  image: casci_github.PNG
+  image: casci_github.png
 
 
 - title: Management
   description: Organizing scientific events and social clubs
-  image: netbiomed_program.PNG
+  image: netbiomed_program.png

@@ -10,9 +10,9 @@
     <section class="cf team-container black-frame">
         {% for section in site.data.sections %}
             <h1 class="team-h1">{{ section.title}}</h1>
+            <span>{{ section.description }}</span>
             <div class="team-member">
-                <img class="team-photo" src="../css/img/{{ section.image }}">
-                <span>{{ section.description }}</span>
+                <img class="team-photo" src="../css/img/{{ section.image }}">                
                 <!-- <a class="contact" href="{{ section.link }}"> <h3>Read more</h3> </a> -->
             </div> 
         {% endfor %} 
