@@ -171,7 +171,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-sm, .btn-xl {
-    color: #fff;
+    color: #000000;
     background-color: #{{ site.data.template.color.primary }};
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
@@ -238,7 +238,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-sm .badge,
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #000;
 }
 
 .navbar-default {
