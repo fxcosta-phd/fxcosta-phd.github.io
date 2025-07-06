@@ -1,17 +1,41 @@
 --- 
-layout: default 
+layout: home
 ---
 
-<div class="intro-text">In construction...</div>
-<p>Updated at 12h55 of July 6th</p>
+<div class="container">
+    <h2>In construction...</h2>
+    <p>Updated at 14h00 of July 6th</p>
+</div>
 
-<section class="cf team-container black-frame">
-    {% for section in site.data.sections %}
-        <h1 class="team-h1">{{ section.title}}</h1>
-        <span>{{ section.description }}</span>
-        <div class="team-member">
-            <img class="team-photo" src="../css/img/{{ section.image }}">                
-            <!-- <a class="contact" href="{{ section.link }}"> <h3>Read more</h3> </a> -->
-        </div> 
-    {% endfor %} 
-</section>
+
+<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="active item">
+            <div class="caption zoomIn wow animated">
+                <h2>Felipe Xavier Costa, PhD</h2>
+            </div>
+            <img class="" src="../css/img/felipe.jpg" alt="">
+        </div>
+        
+        
+        {% for section in site.data.sections %}
+              <div class="item">
+                <div class="caption zoomIn wow animated">
+                    <h2>{{section.title}}<br/><strong>{{section.description}}</strong></h2>
+                    <img class="" src="../css/img/{{ section.image }}" alt="">
+                </div>              
+              </div>
+        {% endfor %}
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+</div>
