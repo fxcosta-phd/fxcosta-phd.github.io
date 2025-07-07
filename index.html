@@ -1,10 +1,26 @@
 --- 
-layout: home
+layout: default
 ---
 
 <div class="container">
     <h2>In construction...</h2>
-    <p>Updated at 15h10 of July 6th</p>
+    <p>Updated at 18h40 of July 6th</p>
 </div>
 
-
+<!-- Slider -->
+<div id="main-slider" class="flexslider">
+    <ul class="slides">
+        {% for section in site.data.sections %}
+            <li>
+                <img src="../css/img/{{ section.image }}" alt="" />
+                <div class="flex-caption">
+                    <div class="item_introtext">
+                        <strong>{{section.title}}</strong>
+                        <p>{{section.description}}</p>
+                    </div>       
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+<!-- end slider -->
