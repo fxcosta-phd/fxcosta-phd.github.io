@@ -8,7 +8,7 @@ layout: default
     <ul class="slides">
         {% for section in site.data.sections %}
             <li>
-                <img src="../css/img/{{ section.image }}" alt="" />
+                <img src="../images/slides/{{ section.image }}" alt="" />
                 <div class="flex-caption">
                     <div class="item_introtext">
                         <strong>{{section.title}}</strong>
@@ -22,7 +22,45 @@ layout: default
 <!-- end slider -->
 </section>
 
+<!-- ABOUT ME -->
+<section id="content">
+    <div class="container">
+        <div class="about">
+            <div class="row">
+                <!-- My Figure -->
+                <div class="col-md-6">
+                    <img src="../images/about_me.png" alt="">
+					<div class="space"></div>
+				</div>
+                <!-- Description -->
+				<div class="col-md-6">
+                    <p>
+                        I am a scientist interested in transdisciplinary research, where knowledge is uncovered in multiple scientific fields at the same time, 
+                        and curiosity driven to develop actionable interventions strategies to real world problems which account for their inherit complexity.
+                    </p>
+                    <p>
+                        Currently, I work as a postdoctoral researcher at the <a href="https://casci.binghamton.edu/">Complex Adaptive Systems and Computational Intelligence Lab</a> branch in the 
+                        <a href="https://cbr.fm.ucp.pt/en">Católica Biomedical Research Centre</a> from the <a href="https://www.ucp.pt/homepage?set_language=en">Universidade Católica Portuguesa</a>.  
+                        My research focus on understanding patterns of redundancy in biomedical systems from chromossomic interactions to spreading in social systems.      
+                    </p>
+                    <!--
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum enimdolor sit amet</li>
+                        <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Explicabo deleniti neque aliquid</li>
+                        <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Consectetur adipisicing elit</li>
+                        <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum dolor sit amet</li>
+                        <li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Quo issimos molest quibusdam temporibus</li>
+                    </ul>
+                    -->
+                </div>
+			</div>
+        </div>
+    </div>
+</section>
+
+<!--
 <div class="container">
     <h2>In construction...</h2>
     <p>Updated at 18h50 of July 7th</p>
 </div>
+-->

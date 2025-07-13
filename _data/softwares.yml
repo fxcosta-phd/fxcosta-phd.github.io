@@ -3,7 +3,7 @@
   urlink: https://github.com/CASCI-lab/distanceclosure
 
 - title: cubewalkers
-  description: A GPU-powered Boolean automata simulator.
+  description: A Boolean automata simulator powered by computer graphics processor.
   urlink: https://github.com/jcrozum/cubewalkers
 
 - title: CANA
