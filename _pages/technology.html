@@ -15,41 +15,32 @@ title: Technology
 </section>
 
 <section class="course">
-    <!-- Description -->
-    <div class="row">
-        <div class="col-lg-12">
-            <div class=""><h3>Scientific Freeware</h3>
-                <span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
-                I am part of the research and development team of publicly available software packages to 
-                <em>identify important pathways</em> in <b>networked systems</b> and <b>Boolean automata</b> simulations.
-                For more details check them below:
-            </div>
-        </div>
-	</div>
-
-    <!-- List of Softwares -->
-    <div class="row">
-        <div class="col-md-4">
-            <div class="textbox">
-                <h3 href="https://github.com/CASCI-lab/distanceclosure">distanceclosure</h3>
-                <p>Finds edges necessary to compute a network closure.</p>
-                <p>Those edges are also the main ones for dynamics on networks. 
-                    Check out the <a href="https://scholarsarchive.library.albany.edu/etd/44">details on my thesis</a>.</p>
+    <div class="container">
+        
+        <!-- Description -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class=""><h3>Scientific Freeware</h3>
+                    <span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+                    I am part of the research and development team of publicly available software packages to 
+                    <em>identify important pathways</em> in <b>networked systems</b> and <b>Boolean automata</b> simulations.
+                    For more details check them below:
+                </div>
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="textbox">
-                <h3 href="https://github.com/jcrozum/cubewalkers">cubewalkers</h3>
-                <p>A GPU-powered Boolean automata simulator.</p>
-            </div>
+        <!-- List of Softwares -->
+        <div class="row">
+            {% for software in site.data.softwares %}
+                <div class="col-md-4">
+                    <div class="textbox">
+                        <h3>{{software.title}}</h3>
+                        <p>{{software.description}}</p>
+                    </div>
+                    <a href="{{software.urlink}}" class="btn btn-color">Download Here</a>
+                </div>
+            {% endfor %}
         </div>
 
-        <div class="col-md-4">
-            <div class="textbox">
-                <h3 href="https://github.com/CASCI-lab/cana">CANA</h3>
-                <p>Measures control, canalization and redundancy in Boolean automata.</p>
-            </div>
-        </div>
     </div>
 </section>

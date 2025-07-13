@@ -1,0 +1,11 @@
+- title: distanceclosure
+  description: Finds edges necessary to compute a network closure.
+  urlink: https://github.com/CASCI-lab/distanceclosure
+
+- title: cubewalkers
+  description: A GPU-powered Boolean automata simulator.
+  urlink: https://github.com/jcrozum/cubewalkers
+
+- title: CANA
+  description: Measures control, canalization and redundancy in Boolean automata.
+  urlink: https://github.com/CASCI-lab/cana
