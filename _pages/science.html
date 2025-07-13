@@ -41,8 +41,8 @@ title: Science
 									</div>
 									<div id="{{pub.id}}" class="panel-collapse collapse">
 										<div class="panel-body">
-											<emph>{{pub.authors}}</emph><br>
-											{{pub.abstract}}<br>
+											<strong>Authors:</strong> <em>{{pub.authors}}</em><br>
+											<strong>Abstract:</strong> {{pub.abstract}}<br>
 											<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
 										</div>
 									</div>
@@ -70,11 +70,12 @@ title: Science
 									<div id="{{pub.id}}" class="panel-collapse collapse">
 										<div class="panel-body">
 											<div class="col-lg-6">
+												<strong>Authors:</strong> <em>{{pub.authors}}</em><br>
 												<img src="../images/publications/{{pub.image}}" alt="">
 												<div class="space"></div>
 											</div>
 											<div class="col-lg-6">
-												<emph>{{pub.authors}}</emph><br>
+												<emph>{{pub.journal}}</emph><br>
 												{{pub.abstract}}<br>
 												<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
 											</div>												
