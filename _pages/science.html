@@ -22,7 +22,7 @@ title: Science
     </div>
 </div>
 
-<section id="content">
+<section id="content_pubs">
 	<div class="container">
 		<div class="about">
 
@@ -75,7 +75,7 @@ title: Science
 												<div class="space"></div>
 											</div>
 											<div class="col-lg-6">
-												<p align="right">Published at <emph>{{pub.journal}}</emph></p>
+												<p align="right">Published at <emph>{{pub.journal}}</emph> [{{pub.date}}]</p>
 												<p align="justify"><strong>Abstract:</strong> {{pub.abstract}}</p>
 												<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
 											</div>												
@@ -93,4 +93,42 @@ title: Science
 </section>
 	
 					
-					
+<section id="content_talks">
+	<div class="container">
+		<div class=""><h3>Talks</h3></div>
+		<div class="row"> 
+			
+			<!-- Invited Talks -->
+			<div class="col-lg-6">
+				<div class="pricing-box-item">
+					<div class="pricing-heading">
+						<h4><strong>Invited</strong></h4>
+					</div>
+					<div class="pricing-container">
+						<ul>
+							{% for talk in site.data.invited %}
+								<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Contributed Talks -->
+			<div class="col-lg-6">
+				<div class="pricing-box-item">
+					<div class="pricing-heading">
+						<h4><strong>Contributed</strong></h4>
+					</div>
+					<div class="pricing-container">
+						<ul>
+							{% for talk in site.data.contributed %}
+								<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

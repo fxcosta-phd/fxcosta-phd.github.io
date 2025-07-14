@@ -1,9 +1,10 @@
-- title: Models of Cell Processes are Far from the Edge of Chaos [2023]
+- title: Models of Cell Processes are Far from the Edge of Chaos
   authors: K. H. Park, <strong>F.X. Costa</strong>, L. M. Rocha, R. Albert, J. C. Rozum
   abstract: Complex living systems are thought to exist at the “edge of chaos” separating the ordered dynamics of robust function from the disordered dynamics of rapid environmental adaptation. Here, a deeper inspection of 72 experimentally supported discrete dynamical models of cell processes reveals previously unobserved order on long time scales, suggesting greater rigidity in these systems than was previously conjectured. We find that propagation of internal perturbations is transient in most cases, and that even when large perturbation cascades persist, their phenotypic effects are often minimal. Moreover, we find evidence that stochasticity and desynchronization can lead to increased recovery from regulatory perturbation cascades. Our analysis relies on new measures that quantify the tendency of perturbations to spread through a discrete dynamical system. Computing these measures was not feasible using current methodology; thus, we developed a multipurpose CUDA-based simulation tool, which we have made available as the open-source Python library cubewalkers. Based on novel measures and simulations, our results suggest that—contrary to current theory—cell processes are ordered and far from the edge of chaos.
   urlink: https://doi.org/10.1103/PRXLife.1.023009
   id: cubewalkers_cell_collective
   journal: PRX Life
+  date: December, 2023
   image: placeholder.png
 
 
@@ -13,4 +14,5 @@
   urlink: https://doi.org/10.3390/e25020374
   id: effective_connectivy_dynamical_prediction
   journal: Entropy
+  date: February 2023
   image: placeholder.png
