@@ -30,8 +30,13 @@ title: Teaching
 				<div class="panel">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{teach.id}}">
-							<i class="fa fa-angle-right"></i> {{teach.discipline}} <span align="right">{{teach.semester}}</span></a> 
+							<div class="col-lg-6">
+								<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{teach.id}}">
+								<i class="fa fa-angle-right"></i> {{teach.discipline}} </a> 
+							</div>
+							<div class="col-lg-6">
+								<p align="right">{{teach.semester}}</p>
+							</div>
 						</h4>
 					</div>
 					<div id="{{teach.id}}" class="panel-collapse collapse">
