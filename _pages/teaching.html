@@ -31,10 +31,10 @@ title: Teaching
 					<div class="panel-heading">
 						<h4 class="panel-title">
 							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{teach.id}}">
-							<i class="fa fa-angle-right"></i> {{teach.discipline}} <i align="right">{{teach.semester}}</i></a>
+							<i class="fa fa-angle-right"></i> {{teach.discipline}} <span align="right">{{teach.semester}}</span></a> 
 						</h4>
 					</div>
-					<div id="{{pub.id}}" class="panel-collapse collapse">
+					<div id="{{teach.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
 							<p> <strong>{{teach.university}}</strong></p>
 							<p align="justify">{{teach.description}}</p>			
@@ -59,7 +59,7 @@ title: Teaching
 							<i class="fa fa-angle-right"></i> {{teach.event}} <i align="right">{{teach.dates}}</i></a>
 						</h4>
 					</div>
-					<div id="{{pub.id}}" class="panel-collapse collapse">
+					<div id="{{teach.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
 							<p> <strong>{{teach.university}}</strong></p>
 							<p align="justify">{{teach.description}}</p>
