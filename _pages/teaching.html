@@ -21,3 +21,52 @@ title: Teaching
         <a href="https://www.cienciavitae.pt/portal/2A15-97E9-C7D5" class="page-scroll btn btn-xl">More info</a>
     </div>    
 </div>
+
+<!-- Teaching Assistant -->
+<div class="container">
+	<div class=""><h3>Teaching Assistant</h3>
+		<div class="panel-group" id="accordion-alt3">
+			{% for teach in site.data.taroles %}
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{teach.id}}">
+							<i class="fa fa-angle-right"></i> {{teach.discipline}} <i align="right">{{teach.semester}}</i></a>
+						</h4>
+					</div>
+					<div id="{{pub.id}}" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p> <strong>{{teach.university}}</strong></p>
+							<p align="justify">{{teach.description}}</p>			
+						</div>
+					</div>
+				</div>			
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+
+<!-- Outreach -->
+<div class="container">
+	<div class=""><h3>Outreach</h3>
+		<div class="panel-group" id="accordion-alt3">
+			{% for teach in site.data.outreach %}
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{teach.id}}">
+							<i class="fa fa-angle-right"></i> {{teach.event}} <i align="right">{{teach.dates}}</i></a>
+						</h4>
+					</div>
+					<div id="{{pub.id}}" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p> <strong>{{teach.university}}</strong></p>
+							<p align="justify">{{teach.description}}</p>
+						</div>
+					</div>
+				</div>			
+			{% endfor %}
+		</div>
+	</div>
+</div>

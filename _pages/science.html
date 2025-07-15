@@ -22,113 +22,99 @@ title: Science
     </div>
 </div>
 
-<section id="content_pubs">
-	<div class="container">
-		<div class="about">
 
-			<!-- Preprints -->
-			<div class="row">
-				<div class="col-lg-12">
-					<div class=""><h3>Preprints</h3>
-						<div class="panel-group" id="accordion-alt3">
-							{% for pub in site.data.preprints %}
-								<div class="panel">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{pub.id}}">
-											<i class="fa fa-angle-right"></i> {{pub.title}} </a>
-										</h4>
-									</div>
-									<div id="{{pub.id}}" class="panel-collapse collapse">
-										<div class="panel-body">
-											<p><strong>Authors:</strong> <em>{{pub.authors}}</em></p>
-											<p align="justify"><strong>Abstract:</strong> {{pub.abstract}}</p>
-											<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
-										</div>
-									</div>
-								</div>			
-							{% endfor %}
+<!-- Preprints -->
+<div class="container">
+	<div class=""><h3>Preprints</h3>
+		<div class="panel-group" id="accordion-alt3">
+			{% for pub in site.data.preprints %}
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{pub.id}}">
+							<i class="fa fa-angle-right"></i> {{pub.title}} </a>
+						</h4>
+					</div>
+					<div id="{{pub.id}}" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p><strong>Authors:</strong> <em>{{pub.authors}}</em></p>
+							<p align="justify"><strong>Abstract:</strong> {{pub.abstract}}</p>
+							<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
 						</div>
 					</div>
-				</div>
-			</div>
+				</div>			
+			{% endfor %}
+		</div>
+	</div>	
+</div>
 
-			<!-- Published -->
-
-			<div class="row">
-				<div class="col-lg-12">
-					<div class=""><h3>Published Work</h3>
-						<div class="panel-group" id="accordion-alt3">
-							{% for pub in site.data.published %}
-								<div class="panel">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{pub.id}}">
-											<i class="fa fa-angle-right"></i> {{pub.title}} </a>
-										</h4>
-									</div>
-									<div id="{{pub.id}}" class="panel-collapse collapse">
-										<div class="panel-body">
-											<div class="col-lg-6">
-												<p><strong>Authors:</strong> <em>{{pub.authors}}</em></p>
-												<img src="../images/publications/{{pub.image}}" alt="">
-												<div class="space"></div>
-											</div>
-											<div class="col-lg-6">
-												<p align="right">Published at <emph>{{pub.journal}}</emph> [{{pub.date}}]</p>
-												<p align="justify"><strong>Abstract:</strong> {{pub.abstract}}</p>
-												<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
-											</div>												
-										</div>
-									</div>
-								</div>			
-							{% endfor %}
+<!-- Published Papers -->
+<div class="container">
+	<div class=""><h3>Published Work</h3>
+		<div class="panel-group" id="accordion-alt3">
+			{% for pub in site.data.published %}
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{pub.id}}">
+							<i class="fa fa-angle-right"></i> {{pub.title}} </a>
+						</h4>
+					</div>
+					<div id="{{pub.id}}" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="col-lg-6">
+								<p><strong>Authors:</strong> <em>{{pub.authors}}</em></p>
+								<img src="../images/publications/{{pub.image}}" alt="">
+								<div class="space"></div>
+							</div>
+							<div class="col-lg-6">
+								<p align="right">Published at <emph>{{pub.journal}}</emph> [{{pub.date}}]</p>
+								<p align="justify"><strong>Abstract:</strong> {{pub.abstract}}</p>
+								<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
+							</div>												
 						</div>
 					</div>
-				</div>
-			</div>
-
+				</div>			
+			{% endfor %}
 		</div>
 	</div>
-</section>
-	
-					
-<section id="content_talks">
-	<div class="container">
-		<div class=""><h3>Talks</h3></div>
-		<div class="row"> 
-			
-			<!-- Invited Talks -->
-			<div class="col-lg-6">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h4><strong>Invited</strong></h4>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							{% for talk in site.data.invited %}
-								<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
-							{% endfor %}
-						</ul>
-					</div>
+</div>
+
+<!-- Talks -->
+<div class="container">
+	<div class=""><h3>Talks</h3></div>
+	<div class="row"> 
+		
+		<!-- Invited -->
+		<div class="col-lg-6">
+			<div class="pricing-box-item">
+				<div class="pricing-heading">
+					<h4><strong>Invited</strong></h4>
+				</div>
+				<div class="pricing-container">
+					<ul>
+						{% for talk in site.data.invited %}
+							<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
+						{% endfor %}
+					</ul>
 				</div>
 			</div>
-			
-			<!-- Contributed Talks -->
-			<div class="col-lg-6">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h4><strong>Contributed</strong></h4>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							{% for talk in site.data.contributed %}
-								<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
-							{% endfor %}
-						</ul>
-					</div>
+		</div>
+		
+		<!-- Contributed -->
+		<div class="col-lg-6">
+			<div class="pricing-box-item">
+				<div class="pricing-heading">
+					<h4><strong>Contributed</strong></h4>
+				</div>
+				<div class="pricing-container">
+					<ul>
+						{% for talk in site.data.contributed %}
+							<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
+						{% endfor %}
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
+</div>
