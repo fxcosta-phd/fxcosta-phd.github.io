@@ -18,19 +18,19 @@ title: Science
 <div class="container">
 	<div class=""><h2>Preprints</h2>
 		<div class="panel-group" id="accordion-alt3">
-			{% for pub in site.data.preprints %}
+			{% for litem in site.data.preprints %}
 				<div class="panel">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{pub.id}}">
-							<i class="fa fa-angle-right"></i> {{pub.title}} </a>
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+							<i class="fa fa-angle-right"></i> {{litem.title}} </a>
 						</h4>
 					</div>
-					<div id="{{pub.id}}" class="panel-collapse collapse">
+					<div id="{{litem.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
-							<p><strong>Authors:</strong> <em>{{pub.authors}}</em></p>
-							<p align="justify"><strong>Abstract:</strong> {{pub.abstract}}</p>
-							<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
+							<p><strong>Authors:</strong> <em>{{litem.authors}}</em></p>
+							<p align="justify"><strong>Abstract:</strong> {{litem.abstract}}</p>
+							<a href="{{litem.urlink}}" class="btn btn-color">Available Here</a>
 						</div>
 					</div>
 				</div>			
@@ -43,25 +43,25 @@ title: Science
 <div class="container">
 	<div class=""><h2>Published Work</h2>
 		<div class="panel-group" id="accordion-alt3">
-			{% for pub in site.data.published %}
+			{% for litem in site.data.published %}
 				<div class="panel">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{pub.id}}">
-							<i class="fa fa-angle-right"></i> {{pub.title}} </a>
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+							<i class="fa fa-angle-right"></i> {{litem.title}} </a>
 						</h4>
 					</div>
-					<div id="{{pub.id}}" class="panel-collapse collapse">
+					<div id="{{litem.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
 							<div class="col-lg-6">
-								<p><strong>Authors:</strong> <em>{{pub.authors}}</em></p>
-								<img src="../images/publications/{{pub.image}}" alt="">
+								<p><strong>Authors:</strong> <em>{{litem.authors}}</em></p>
+								<img src="../images/publications/{{litem.image}}" alt="">
 								<div class="space"></div>
 							</div>
 							<div class="col-lg-6">
-								<p align="right">Published at <emph>{{pub.journal}}</emph> [{{pub.date}}]</p>
-								<p align="justify"><strong>Abstract:</strong> {{pub.abstract}}</p>
-								<a href="{{pub.urlink}}" class="btn btn-color">Available Here</a>
+								<p align="right">Published at <emph>{{litem.journal}}</emph> [{{litem.date}}]</p>
+								<p align="justify"><strong>Abstract:</strong> {{litem.abstract}}</p>
+								<a href="{{litem.urlink}}" class="btn btn-color">Available Here</a>
 							</div>												
 						</div>
 					</div>
@@ -84,8 +84,8 @@ title: Science
 				</div>
 				<div class="pricing-container">
 					<ul>
-						{% for talk in site.data.invited %}
-							<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
+						{% for litem in site.data.invited %}
+							<li><i class="icon-ok"></i> {{litem.title}} @ <a href="{{litem.confwebpage}}"> {{litem.conference}} </a> [{{litem.year}}]</li>
 						{% endfor %}
 					</ul>
 				</div>
@@ -100,8 +100,8 @@ title: Science
 				</div>
 				<div class="pricing-container">
 					<ul>
-						{% for talk in site.data.contributed %}
-							<li><i class="icon-ok"></i> {{talk.title}} @ <a href="{{talk.confwebpage}}"> {{talk.conference}} </a> [{{talk.year}}]</li>
+						{% for litem in site.data.contributed %}
+							<li><i class="icon-ok"></i> {{litem.title}} @ <a href="{{litem.confwebpage}}"> {{litem.conference}} </a> [{{litem.year}}]</li>
 						{% endfor %}
 					</ul>
 				</div>

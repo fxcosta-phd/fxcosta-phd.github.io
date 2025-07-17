@@ -21,13 +21,13 @@ title: Technology
 
         <!-- List of Softwares -->
         <div class="row">
-            {% for software in site.data.softwares %}
+            {% for litem in site.data.softwares %}
                 <div class="col-md-4">
                     <div class="textbox">
-                        <h3>{{software.title}}</h3>
-                        <p>{{software.description}}</p>
+                        <h3>{{litem.title}}</h3>
+                        <p>{{litem.description}}</p>
                     </div>
-                    <a href="{{software.urlink}}" class="btn btn-color">Download Here</a>
+                    <a href="{{litem.urlink}}" class="btn btn-color">Download Here</a>
                 </div>
             {% endfor %}
         </div>

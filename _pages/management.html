@@ -17,18 +17,18 @@ title: Management
 <div class="container">
 	<div class=""><h2>Conference Organization</h2>
 		<div class="panel-group" id="accordion-alt3">
-			{% for conf in site.data.conferences %}
+			{% for litem in site.data.conferences %}
 				<div class="panel">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{conf.id}}">
-							<i class="fa fa-angle-right"></i> {{conf.name}} [{{conf.role}}] </a> 
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+							<i class="fa fa-angle-right"></i> {{litem.name}} [{{litem.role}}] </a> 
 						</h4>
 					</div>
-					<div id="{{conf.id}}" class="panel-collapse collapse">
+					<div id="{{litem.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
-							<p align="justify">{{conf.description}}</p>
-							<a href="{{conf.urlink}}" class="btn btn-color">Conference Website</a>										
+							<p align="justify">{{litem.description}}</p>
+							<a href="{{litem.urlink}}" class="btn btn-color">Conference Website</a>										
 						</div>
 					</div>
 				</div>			
@@ -47,14 +47,14 @@ title: Management
 				<div class="panel">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{conf.id}}">
-							<i class="fa fa-angle-right"></i> {{conf.name}} [{{conf.role}}] </a> 
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+							<i class="fa fa-angle-right"></i> {{litem.name}} [{{litem.role}}] </a> 
 						</h4>
 					</div>
-					<div id="{{conf.id}}" class="panel-collapse collapse">
+					<div id="{{litem.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
-							<p align="justify">{{conf.description}}</p>
-							<a href="{{conf.urlink}}" class="btn btn-color">Read More</a>
+							<p align="justify">{{litem.description}}</p>
+							<a href="{{litem.urlink}}" class="btn btn-color">Read More</a>
 						</div>
 					</div>
 				</div>			

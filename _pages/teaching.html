@@ -16,23 +16,23 @@ title: Teaching
 <div class="container">
 	<div class=""><h2>Teaching Assistant</h2>
 		<div class="panel-group" id="accordion-alt3">
-			{% for teach in site.data.taroles %}
+			{% for litem in site.data.taroles %}
 				<div class="panel">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{teach.id}}">
-							<i class="fa fa-angle-right"></i> {{teach.discipline}} </a> 
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+							<i class="fa fa-angle-right"></i> {{litem.discipline}} </a> 
 						</h4>
 					</div>
-					<div id="{{teach.id}}" class="panel-collapse collapse">
+					<div id="{{litem.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
 							<div class="col-lg-6">
-								<p align="left">{{teach.semester}}</p>
+								<p align="left">{{litem.semester}}</p>
 							</div>
 							<div class="col-lg-6">
-								<p align="right"><strong>{{teach.university}}</strong></p>
+								<p align="right"><strong>{{litem.university}}</strong></p>
 							</div>
-							<p align="justify">{{teach.description}}</p>			
+							<p align="justify">{{litem.description}}</p>			
 						</div>
 					</div>
 				</div>			
@@ -46,24 +46,24 @@ title: Teaching
 <div class="container">
 	<div class=""><h2>Outreach</h2>
 		<div class="panel-group" id="accordion-alt3">
-			{% for teach in site.data.outreach %}
+			{% for litem in site.data.outreach %}
 				<div class="panel">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{teach.id}}">
-							<i class="fa fa-angle-right"></i> {{teach.event}} </a>
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+							<i class="fa fa-angle-right"></i> {{litem.event}} </a>
 						</h4>
 					</div>
-					<div id="{{teach.id}}" class="panel-collapse collapse">
+					<div id="{{litem.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
 							<div class="col-lg-6">
-								<p align="left">{{teach.dates}}</p>
+								<p align="left">{{litem.dates}}</p>
 							</div>
 							<div class="col-lg-6">
-								<p align="right"> <strong>{{teach.university}}</strong></p>
+								<p align="right"> <strong>{{litem.university}}</strong></p>
 							</div>
 							
-							<p align="justify">{{teach.description}}</p>
+							<p align="justify">{{litem.description}}</p>
 						</div>
 					</div>
 				</div>			
