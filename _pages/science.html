@@ -75,9 +75,14 @@ title: Science
 <!-- Talks -->
 <div class="container">
 	<div class=""><h2>Talks</h2></div>
-	<ul class="list-unstyled">
+	<ul class="portfolio-categ filter">
+		<li class="all active"><a href="#">All</a></li>
+		<li class="Invited"><a href="#" title="">Invited</a></li>
+		<li class="Contributed"><a href="#" title="">Contributed</a></li>
+	</ul>
+	<ul id="thumbs" class="list-unstyled portfolio">
 		{% for litem in site.data.talks %}
-			<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> {{litem.date}}, <em>{{litem.title}}</em>, {{litem.role}} Talk, <a href="{{litem.confwebpage}}"> {{litem.conference}} </a></li>
+			<li class="item-thumbs" data-type="{{litem.role}}"><i class="fa fa-arrow-circle-right pr-10 colored"></i> {{litem.date}}, <em>{{litem.title}}</em>, {{litem.role}} Talk, <a href="{{litem.confwebpage}}"> {{litem.conference}} </a></li>
 		{% endfor %}
 	</ul>
 </div>
