@@ -80,6 +80,8 @@ title: Science
 		<li class="Invited"><a href="#" title="">Invited</a></li>
 		<li class="Contributed"><a href="#" title="">Contributed</a></li>
 	</ul>
+	<div class="clearfix">
+	</div>
 	<ul id="thumbs" class="list-unstyled portfolio">
 		{% for litem in site.data.talks %}
 			<li class="item-thumbs" data-type="{{litem.role}}"><i class="fa fa-arrow-circle-right pr-10 colored"></i> {{litem.date}}, <em>{{litem.title}}</em>, {{litem.role}} Talk, <a href="{{litem.confwebpage}}"> {{litem.conference}} </a></li>
