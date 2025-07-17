@@ -71,41 +71,21 @@ title: Science
 	</div>
 </div>
 
+<ul class="list-unstyled">
+									
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Explicabo deleniti neque aliquid</li>
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Consectetur adipisicing elit</li>
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum dolor sit amet</li>
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Quo issimos molest quibusdam temporibus</li>
+								</ul>
+
 <!-- Talks -->
+
 <div class="container">
-	<div class="aligncenter"><h1>Talks</h1></div>
-	<div class="row"> 
-		
-		<!-- Invited -->
-		<div class="col-lg-6">
-			<div class="pricing-box-item">
-				<div class="pricing-heading">
-					<h4><strong>Invited</strong></h4>
-				</div>
-				<div class="pricing-container">
-					<ul>
-						{% for litem in site.data.invited %}
-							<li><i class="icon-ok"></i> {{litem.title}} @ <a href="{{litem.confwebpage}}"> {{litem.conference}} </a> [{{litem.year}}]</li>
-						{% endfor %}
-					</ul>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Contributed -->
-		<div class="col-lg-6">
-			<div class="pricing-box-item">
-				<div class="pricing-heading">
-					<h4><strong>Contributed</strong></h4>
-				</div>
-				<div class="pricing-container">
-					<ul>
-						{% for litem in site.data.contributed %}
-							<li><i class="icon-ok"></i> {{litem.title}} @ <a href="{{litem.confwebpage}}"> {{litem.conference}} </a> [{{litem.year}}]</li>
-						{% endfor %}
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div class=""><h2>Talks</h2></div>
+	<ul class="list-unstyled">
+		{% for litem in site.data.talks %}
+			<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> {{litem.date}}, <em>{{litem.title}}</em>, {{litem.role}} Talk, <a href="{{litem.confwebpage}}"> {{litem.conference}} </a></li>
+		{% endfor %}
+	</ul>
 </div>
