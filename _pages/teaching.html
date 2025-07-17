@@ -15,29 +15,27 @@ title: Teaching
 <!-- Teaching Assistant -->
 <div class="container">
 	<div class=""><h2>Teaching Assistant</h2>
-		<div class="panel-group" id="accordion-alt3">
-			{% for litem in site.data.taroles %}
-				<div class="panel">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
-							<i class="fa fa-angle-right"></i> {{litem.discipline}} </a> 
-						</h4>
-					</div>
-					<div id="{{litem.id}}" class="panel-collapse collapse">
-						<div class="panel-body">
-							<div class="col-lg-6">
-								<p align="left">{{litem.semester}}</p>
-							</div>
-							<div class="col-lg-6">
+		{% for lsem in site.data.taroles %}
+			<div class=""><h4>{{lsem.semester}}</h4>
+			<div class="panel-group" id="accordion-alt3">
+				{% for litem in lsem.classes %}
+					<div class="panel">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+								<i class="fa fa-angle-right"></i> {{litem.discipline}} </a> 
+							</h4>
+						</div>
+						<div id="{{litem.id}}" class="panel-collapse collapse">
+							<div class="panel-body">
 								<p align="right"><strong>{{litem.university}}</strong></p>
+								<p align="justify">{{litem.description}}</p>			
 							</div>
-							<p align="justify">{{litem.description}}</p>			
 						</div>
 					</div>
-				</div>			
-			{% endfor %}
-		</div>
+				{% endfor %}
+			</div>
+		{% endfor %}
 	</div>
 </div>
 

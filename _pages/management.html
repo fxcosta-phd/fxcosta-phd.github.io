@@ -63,34 +63,3 @@ title: Management
 
 	</div>
 </div>
-
-
-<!-- Test -->
-
-<div class="container">
-	<div class=""><h2>Header</h2>
-		{% for sem in site.data.semester %}
-			<p> sem </p>
-		{% endfor %}
-
-		<div class="panel-group" id="accordion-alt3">
-			{% for conf in site.data.clubs %}
-				<div class="panel">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
-							<i class="fa fa-angle-right"></i> {{litem.name}} [{{litem.role}}] </a> 
-						</h4>
-					</div>
-					<div id="{{litem.id}}" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p align="justify">{{litem.description}}</p>
-							<a href="{{litem.urlink}}" class="btn btn-color">Read More</a>
-						</div>
-					</div>
-				</div>			
-			{% endfor %}
-		</div>
-
-	</div>
-</div>
