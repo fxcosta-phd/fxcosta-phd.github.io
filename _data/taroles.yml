@@ -3,4 +3,5 @@
     - discipline: Computational Methods (A PHY 477/477Y/577)
       university: State University of New York at Albany
       description: My main role was grading student reports, but I also tutored students to help them succed in the class. For my performance in this role, I was awarded the <strong>Teaching Assistant of the Year - 2020/2021 Academic Year</strong> recognition.
-      id: 'computational'
+      icon: 'fa-trophy'
+      color: 'c4'
