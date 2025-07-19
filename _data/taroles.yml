@@ -23,12 +23,12 @@
     - discipline: Quantum Physics I (A PHY 440)
       university: State University of New York at Albany
       role: Grading student assignments.
-      icon: 'fa-cogs'
+      icon: 'fa-barcode'
       color: 'c4'
     - discipline: Statistical Mechanics (A PHY 517)
       university: State University of New York at Albany
       role: Grading student assignments. 
-      icon: 'fa-bar-chart-o'
+      icon: 'fa-cogs'
       color: 'c3'
     - discipline: Thermodynamics and Statistical Physics (A PHY 460)
       university: State University of New York at Albany
