@@ -2,7 +2,7 @@
   authors: K. H. Park, <strong>F.X. Costa</strong>, L. M. Rocha, R. Albert, J. C. Rozum
   abstract: Complex living systems are thought to exist at the “edge of chaos” separating the ordered dynamics of robust function from the disordered dynamics of rapid environmental adaptation. Here, a deeper inspection of 72 experimentally supported discrete dynamical models of cell processes reveals previously unobserved order on long time scales, suggesting greater rigidity in these systems than was previously conjectured. We find that propagation of internal perturbations is transient in most cases, and that even when large perturbation cascades persist, their phenotypic effects are often minimal. Moreover, we find evidence that stochasticity and desynchronization can lead to increased recovery from regulatory perturbation cascades. Our analysis relies on new measures that quantify the tendency of perturbations to spread through a discrete dynamical system. Computing these measures was not feasible using current methodology; thus, we developed a multipurpose CUDA-based simulation tool, which we have made available as the open-source Python library cubewalkers. Based on novel measures and simulations, our results suggest that—contrary to current theory—cell processes are ordered and far from the edge of chaos.
   urlink: https://doi.org/10.1103/PRXLife.1.023009
-  id: cubewalkers_cell_collective
+  id: cubewalkers
   journal: PRX Life
   date: December, 2023
   image: placeholder.png
@@ -12,7 +12,67 @@
   authors: <strong>F.X. Costa</strong>, J. C. Rozum, A. M. Marcus, L. M. Rocha
   abstract: Biomolecular network dynamics are thought to operate near the critical boundary between ordered and disordered regimes, where large perturbations to a small set of elements neither die out nor spread on average. A biomolecular automaton (e.g., gene, protein) typically has high regulatory redundancy, where small subsets of regulators determine activation via collective canalization. Previous work has shown that effective connectivity, a measure of collective canalization, leads to improved dynamical regime prediction for homogeneous automata networks. We expand this by (i) studying random Boolean networks (RBNs) with heterogeneous in-degree distributions, (ii) considering additional experimentally validated automata network models of biomolecular processes, and (iii) considering new measures of heterogeneity in automata network logic. We found that effective connectivity improves dynamical regime prediction in the models considered; in RBNs, combining effective connectivity with bias entropy further improves the prediction. Our work yields a new understanding of criticality in biomolecular networks that accounts for collective canalization, redundancy, and heterogeneity in the connectivity and logic of their automata models. The strong link we demonstrate between criticality and regulatory redundancy provides a means to modulate the dynamical regime of biochemical networks.
   urlink: https://doi.org/10.3390/e25020374
-  id: effective_connectivy_dynamical_prediction
+  id: ke_bias_special_issue
   journal: Entropy
   date: February 2023
+  image: placeholder.png
+
+
+- title: The Distance Backbone of Directed Networks
+  authors: <strong>F.X. Costa</strong>, R. B. Correia, L. M. Rocha
+  abstract: In weighted graphs the shortest path between two nodes is often reached through an indirect path, out of all possible connections, leading to structural redundancies which play key roles in the dynamics and evolution of complex networks. We have previously developed a parameter-free, algebraically-principled methodology to uncover such redundancy and reveal the distance backbone of weighted graphs, which has been shown to be important in transmission dynamics, inference of important paths, and quantifying the robustness of networks. However, the method was developed for undirected graphs. Here we expand this methodology to weighted directed graphs and study the redundancy and robustness found in nine networks ranging from social, biomedical, and technical systems. We found that similarly to undirected graphs, directed graphs in general also contain a large amount of redundancy, as measured by the size of their (directed) distance backbone. Our methodology adds an additional tool to the principled sparsification of complex networks and the measure of their robustness.
+  urlink: https://doi.org/10.1007/978-3-031-21131-7_11
+  id: directed_backbone
+  journal: Complex Networks and Their Applications XI
+  date: January 2023
+  image: placeholder.png
+
+
+- title: Entropic Dynamics on Gibbs Statistical Manifolds
+  authors: P. Pessoa, <strong>F.X. Costa</strong>, A. Caticha
+  abstract: Entropic dynamics is a framework in which the laws of dynamics are derived as an application of entropic methods of inference. Its successes include the derivation of quantum mechanics and quantum field theory from probabilistic principles. Here, we develop the entropic dynamics of a system, the state of which is described by a probability distribution. Thus, the dynamics unfolds on a statistical manifold that is automatically endowed by a metric structure provided by information geometry. The curvature of the manifold has a significant influence. We focus our dynamics on the statistical manifold of Gibbs distributions (also known as canonical distributions or the exponential family). The model includes an “entropic” notion of time that is tailored to the system under study; the system is its own clock. As one might expect that entropic time is intrinsically directional; there is a natural arrow of time that is led by entropic considerations. As illustrative examples, we discuss dynamics on a space of Gaussians and the discrete three-state system.
+  urlink: https://doi.org/10.3390/e23050494
+  id: entropic_dynamics_gibbs
+  journal: Entropy
+  date: April 2021
+  image: placeholder.png
+
+
+- title: Entropic dynamics of networks
+  authors: <strong>F.X. Costa</strong>, P. Pessoa
+  abstract: Here we present the entropic dynamics formalism for networks. That is, a framework for the dynamics of graphs meant to represent a network derived from the principle of maximum entropy and the rate of transition is obtained taking into account the natural information geometry of probability distributions. We apply this framework to the Gibbs distribution of random graphs obtained with constraints on the node connectivity. The information geometry for this graph ensemble is calculated and the dynamical process is obtained as a diffusion equation. We compare the steady state of this dynamics to degree distributions found on real-world networks.
+  urlink: https://doi.org/10.22191/nejcs/vol3/iss1/5
+  id: entropic_dynamics_networks
+  journal: Northeast Journal of Complex Systems
+  date: March 2021
+  image: placeholder.png
+
+
+- title: Smart cities depictions in wikipedia articles - reflections from a text analysis approach.
+  authors: F. Cronemberger, J.R. Gil-Garcia, <strong>F.X. Costa</strong>, T.A. Pardo.
+  abstract: Discussions about smart cities continue to attract much attention from researchers, practitioners and citizens at large. As the literature continues to grow the number of indicators and frameworks for "smartness" are becoming more robust and perspectives on what makes a city smart continue to evolve. This exploratory research analyzes text from 51 Wikipedia articles that describe cities considered "smart" according to three globally recognized and independent rankings of cities. By comparing findings on word frequencies and word associations found in Wikipedia articles with terminology found in academic literature on smart cities, this study intends to determine to what extent data about smart cities produced through Wikipedia's crowdsourcing approach relates to theoretical developments in the field. This inductive approach may open avenues to the application of automated text analysis methods in theorizing and empirical efforts with information produced about smart cities. This exploratory work may facilitate conceptual understanding of the properties and features of smart cities and may also open avenues to future applications of alternative conceptualization methods.
+  urlink: https://doi.org/10.1145/3209415.3209508
+  id: smart_cities
+  journal: 11th ICEGOV 
+  date: April 2018
+  image: placeholder.png
+
+
+- title: A possible link between pyriproxyfen and microcephaly.
+  authors: R. Parens, H. F. Nijhout, A. Morales, <strong>F.X. Costa</strong>, Y. Bar-Yam
+  abstract: The Zika virus has been the primary suspect in the large increase in incidence of microcephaly in 2015-6 in Brazil. While evidence for Zika being the cause of some of the cases is strong, its role as the primary cause of the large number of cases in Brazil has not been confirmed. Recently, the disparity between the incidences in different geographic locations has led to questions about the virus’s role. Here we consider the alternative possibility that the use of the insecticide pyriproxyfen for control of mosquito populations in Brazilian drinking water is the primary cause. Pyriproxifen is a juvenile hormone analog which has been shown to correspond in mammals to a number of fat soluble regulatory molecules including retinoic acid, a metabolite of vitamin A, with which it has cross-reactivity and whose application during development has been shown to cause microcephaly. Methoprene, another juvenile hormone analog that was approved as an insecticide based upon tests performed in the 1970s, has metabolites that bind to the mammalian retinoid X receptor, and has been shown to cause developmental disorders in mammals. Isotretinoin is another example of a retinoid causing microcephaly in human babies via maternal exposure and activation of the retinoid X receptor in developing fetuses. Moreover, tests of pyriproxyfen by the manufacturer, Sumitomo, widely quoted as giving no evidence for developmental toxicity, actually found some evidence for such an effect, including low brain mass and arhinencephaly—incomplete formation of the anterior cerebral hemispheres—in exposed rat pups. Finally, the pyriproxyfen use in Brazil is unprecedented—it has never before been applied to a water supply on such a scale. Claims that it is not being used in Recife, the epicenter of microcephaly cases, do not distinguish the metropolitan area of Recife, where it is widely used, and the municipality, and have not been adequately confirmed. Given this combination of information about molecular mechanisms and toxicological evidence, we strongly recommend that the use of pyriproxyfen in Brazil be suspended until the potential causal link to microcephaly is investigated further.
+  urlink: http://dx.doi.org/10/gcvph6
+  id: pyriproxyfen
+  journal: PLOS Currents
+  date: November 2017
+  image: placeholder.png
+
+
+- title: Core/shell nanofiber characterization by Raman scanning microscopy 
+  authors: L. Sfakis, A. Sharikova, D. Tuschel, <strong>F.X. Costa</strong>, M. Larsen, A. Khmaladze, J. Castracane.
+  abstract: Core/shell nanofibers are becoming increasingly popular for applications in tissue engineering. Nanofibers alone provide surface topography and increased surface area that promote cellular attachment; however, core/shell nanofibers provide the versatility of incorporating two materials with different properties into one. Such synthetic materials can provide the mechanical and degradation properties required to make a construct that mimics in vivo tissue. Many variations of these fibers can be produced. The challenge lies in the ability to characterize and quantify these nanofibers post fabrication. We developed a non-invasive method for the composition characterization and quantification at the nanoscale level of fibers using Confocal Raman microscopy. The biodegradable/biocompatible nanofibers, Poly (glycerol-sebacate)/Poly (lactic-co-glycolic) (PGS/PLGA), were characterized as a part of a fiber scaffold to quickly and efficiently analyze the quality of the substrate used for tissue engineering. 
+  urlink: https://doi.org/10.1364/BOE.8.001025
+  id: nanofiber_raman
+  journal: Biomedical Optics Express
+  date: February 2017
   image: placeholder.png
