@@ -16,8 +16,11 @@ title: Teaching
 <div class="container">
 	<div class=""><h2>Teaching Assistant</h2>
 		{% for lsem in site.data.taroles %}
-			<div class=""><h3>{{lsem.semester}}</h3>
+			<div class=""><h3>{{lsem.year}}</h3>
 				<div class="row">
+					{% if lsem.details %}
+					<p>{{ lsem.details }}</p>
+					{% endif %}
 					<div class="skill-home">
 						<div class="skill-home-solid clearfix">
 							{% for litem in lsem.classes %}
@@ -25,7 +28,7 @@ title: Teaching
 									<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> <div class="box-area">
 										<h4>{{litem.discipline}}</h4>
 										<p align="right"><strong>{{litem.university}}</strong></p>
-										<p align="justify">{{litem.description}}</p>
+										<em>Role:</em><p align="justify">{{litem.role}}</p>
 									</div>
 								</div>
 							{% endfor %}

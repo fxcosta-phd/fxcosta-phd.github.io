@@ -1,7 +1,83 @@
-- semester: January to May 2021
+- year: 2021
+  details: I was awarded the <strong>Teaching Assistant of the Year - 2020/2021 Academic Year</strong> recognition for my performance in the classes below. 
   classes: 
     - discipline: Computational Methods (A PHY 477/477Y/577)
       university: State University of New York at Albany
-      description: My main role was grading student reports, but I also tutored students to help them succed in the class. For my performance in this role, I was awarded the <strong>Teaching Assistant of the Year - 2020/2021 Academic Year</strong> recognition.
-      icon: 'fa-trophy'
+      role: Grading student assignments. 
+      icon: 'fa-laptop'
       color: 'c4'
+    - discipline: Optics (A PHY 430/430Y/530)
+      university: State University of New York at Albany
+      role: Grading student assignments.
+      icon: 'fa-bolt'
+      color: 'c4'
+
+
+- year: 2020
+  classes: 
+    - discipline: Introduction to Cosmology (A PHY 443/443Y/543)
+      university: State University of New York at Albany
+      role: Grading student assignments. 
+      icon: 'fa-book'
+      color: 'c4'
+    - discipline: Quantum Physics I (A PHY 440)
+      university: State University of New York at Albany
+      role: Grading student assignments.
+      icon: 'fa-book'
+      color: 'c4'
+    - discipline: Statistical Mechanics (A PHY 517)
+      university: State University of New York at Albany
+      role: Grading student assignments. 
+      icon: 'fa-book'
+      color: 'c3'
+    - discipline: Thermodynamics and Statistical Physics (A PHY 460)
+      university: State University of New York at Albany
+      role: Grading student assignments.
+      icon: 'fa-book'
+      color: 'c3'
+
+
+- year: 2019
+  classes: 
+    - discipline: Physics III: Structure of Matter (A PHY 240)
+      university: State University of New York at Albany
+      role: Grading student assignments. 
+      icon: 'fa-book'
+      color: 'c4'
+    - discipline: Physics Lab I (A PHY 145)
+      university: State University of New York at Albany
+      role: Lecturing and grading student assignments.
+      icon: 'fa-book'
+      color: 'c4'
+    - discipline: Physics Lab II (A PHY 155)
+      university: State University of New York at Albany
+      role: Lecturing and grading student assignments.
+      icon: 'fa-book'
+      color: 'c3'
+
+
+- year: 2018
+  classes: 
+    - discipline: Physics Lab I (A PHY 145)
+      university: State University of New York at Albany
+      role: Lecturing and grading student assignments.
+      icon: 'fa-book'
+      color: 'c3'
+
+
+- year: 2016
+  classes: 
+    - discipline: Introduction to Computational Physics (FI587)
+      university: Federal University of Pernambuco
+      role: Lecture planning and assistance, as well as grading student assignments. 
+      icon: 'fa-laptop'
+      color: 'c3'
+
+
+- year: 2014
+  classes: 
+    - discipline: Experimental Physics L1 (FI130)
+      university: Federal University of Pernambuco
+      role: Lecture assistance, as well as grading student assignments. 
+      icon: 'fa-laptop'
+      color: 'c3'
