@@ -35,7 +35,8 @@
   id: entropic_dynamics_gibbs
   journal: Entropy
   date: April 2021
-  image: placeholder.png
+  image: ed_gibbs.png
+  credits: Concept figure by <a href="https://romanayanez.github.io/">Romana Yáñez</a>.
 
 
 - title: Entropic dynamics of networks
@@ -46,6 +47,7 @@
   journal: Northeast Journal of Complex Systems
   date: March 2021
   image: placeholder.png
+  credits: Concept figure by <a href="https://romanayanez.github.io/">Romana Yáñez</a>.
 
 
 - title: Smart cities depictions in wikipedia articles - reflections from a text analysis approach
