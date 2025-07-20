@@ -48,20 +48,20 @@ title: Science
 					<div class="panel-heading">
 						<h4 class="panel-title">
 							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
-							<i class="fa fa-angle-right"></i> {{litem.title}} </a>
+							<i class="fa fa-angle-right"></i> {{litem.title}}. Published at <emph>{{litem.journal}}</emph>. [{{litem.date}}] </a>
 						</h4>
 					</div>
 					<div id="{{litem.id}}" class="panel-collapse collapse">
 						<div class="panel-body">
 							<div class="col-lg-6">
-								<p><strong>Authors:</strong> <em>{{litem.authors}}</em></p>
 								<img src="../images/publications/{{litem.image}}" alt="">
 								<div class="space"></div>
 							</div>
 							<div class="col-lg-6">
-								<p align="right">Published at <emph>{{litem.journal}}</emph> [{{litem.date}}]</p>
+								<p><strong>Authors:</strong> <em>{{litem.authors}}</em></p>
 								<p align="justify"><strong>Abstract:</strong> {{litem.abstract}}</p>
-								<a href="{{litem.urlink}}" class="btn btn-color">Available Here</a>
+								<a href="{{litem.urlink}}" class="btn btn-color"
+								>Available Here</a>
 							</div>												
 						</div>
 					</div>
