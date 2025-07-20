@@ -1785,7 +1785,7 @@ padding:50px 0
     height:100%;
     left:1px;
     top:0;
-    border-right:1px solid #F74D4D;
+    border-right:1px solid #000;
     z-index:-1;
 } 
 
@@ -1797,7 +1797,7 @@ padding:50px 0
     height:100px;
     left:1px;
     bottom:-105px;
-    border-right:1px dashed #F74D4D;
+    border-right:1px dashed #000;
     z-index:-1;
 } 
 
@@ -2031,7 +2031,7 @@ padding:50px 0
     font-size:32px;
     line-height:80px;
     text-align:center;
-    color:#F74D4D;
+    color:#000;
     -webkit-transform:scale(0);
     transform:scale(0);
     opacity:0;
