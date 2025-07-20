@@ -1,5 +1,38 @@
+- title: Estudo comparativo de técnicas de sutura de tendões flexores da mão
+  confwebpage: https://ortopediaetraumatologiape.com.br/
+  conference: Congresso Pernambucano de Ortopedia e Traumatologia 2023
+  date: August 2023
+  id: suturas
+  authors: F.H.C. Soares, F.R.C. Soares, J.R.S. Farias, A.P.B. Rodrigues, V.B.F. Freire, T.C.C.M. da Silva, <strong>F.X. Costa</strong>, S.L.U. Filho
+  
+
+- title: Structural redundancy in directed weighted graphs
+  confwebpage: https://netsci2023.wixsite.com/netsci2023
+  conference: International School and Conference on Network Science 2023
+  date: July 2023
+  id: directed_backbone
+  authors: <strong>F.X. Costa</strong>, R. B. Correia, L. M. Rocha
+
+
 - title: Two-level Cellular Automata model for Arboviral Endemic Propagations
   confwebpage: http://www.sbfisica.org.br/~enfmc/xli/index.php/en/
   conference: Autumn Meeting of the Brazilian Physical Society 2018
   date: April 2018
-  role: Contributed
+  id: arboviral_ca
+  authors: <strong>F.X. Costa</strong>, S.G. Coutinho
+
+
+- title: Smartness at the word level- graph statistics on smart cities descriptions
+  confwebpage: https://www.nycwic.org/
+  conference: New York Celebration of Women In Computing 2016
+  date: April 2016
+  id: smart_city
+  authors: <strong>F.X. Costa</strong>, F. Cronemberger
+
+
+- title: A network-based approach to the study of the biodiversity in neutral metacommunities
+  confwebpage: http://www.sbfisica.org.br/~efnne/xxxii/
+  conference: Encontro de Física do Norte e Nordeste 2012
+  date: November 2012
+  id: biodiversity
+  authors: <strong>F.X. Costa</strong>, P.R.A. Campos

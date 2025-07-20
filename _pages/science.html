@@ -88,3 +88,28 @@ title: Science
 		{% endfor %}
 	</ul>
 </div>
+
+<!-- Preprints -->
+<div class="container">
+	<div class=""><h2>Posters</h2>
+		<div class="panel-group" id="accordion-alt3">
+			{% for litem in site.data.posters %}
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
+							<i class="fa fa-angle-right"></i> {{litem.date}}, <em>{{litem.title}}</em> </a>
+						</h4>
+					</div>
+					<div id="{{litem.id}}" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p><strong>Authors:</strong> <em>{{litem.authors}}</em></p>
+							<p><strong>Conference:</strong> <a href="{{litem.confwebpage}}"> {{litem.conference}} </a></p>
+							<!-- <p align="justify"><strong>Abstract:</strong> {{litem.abstract}}</p> -->
+						</div>
+					</div>
+				</div>			
+			{% endfor %}
+		</div>
+	</div>	
+</div>

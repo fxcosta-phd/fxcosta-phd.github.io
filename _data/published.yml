@@ -76,3 +76,13 @@
   journal: Biomedical Optics Express
   date: February 2017
   image: placeholder.png
+
+
+- title: Raman hyperspectral imaging of iron transport across membranes in cells
+  authors: A. Das, <strong>F.X. Costa</strong>, A. Khmaladze, M. Barroso, A. Sharikova
+  abstract: Raman scattering microscopy is a powerful imaging technique used to identify chemical composition, structural and conformational state of molecules of complex samples in biology, biophysics, medicine and materials science. In this work, we have shown that Raman techniques allow the measurement of the iron content in protein mixtures and cells. Since the mechanisms of iron acquisition, storage, and excretion by cells are not completely understood, improved knowledge of iron metabolism can offer insight into many diseases in which iron plays a role in the pathogenic process, such as diabetes, neurodegenerative diseases, cancer, and metabolic syndrome. Understanding of the processes involved in cellular iron metabolism will improve our knowledge of cell functioning. It will also have a big impact on treatment of diseases caused by iron deficiency (anemias) and iron overload (hereditary hemochromatosis). Previously, Raman studies have shown substantial differences in spectra of transferrin with and without bound iron, thus proving that it is an appropriate technique to determine the levels of bound iron in the protein mixture. We have extended these studies to obtain hyperspectral images of transferrin in cells. By employing a Raman scanning microscope together with spectral detection by a highly sensitive back-illuminated cooled CCD camera, we were able to rapidly acquire and process images of fixed cells with chemical selectivity. We discuss and compare various methods of hyperspectral Raman image analysis and demonstrate the use of these methods to characterize cellular iron content without the need for dye labeling.
+  urlink: https://doi.org/10.1117/12.2238329
+  id: iron_transport_raman
+  journal: Imaging Spectrometry XXI
+  date: September 2016
+  image: placeholder.png
