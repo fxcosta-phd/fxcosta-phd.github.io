@@ -13,27 +13,22 @@ title: Management
     </div>
 </div>
 
+
+
+
 <!-- Conference Organization -->
 <div class="container">
 	<div class=""><h2>Conference Organization</h2>
-		<div class="panel-group" id="accordion-alt3">
-			{% for litem in site.data.conferences %}
-				<div class="panel">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
-							<i class="fa fa-angle-right"></i> {{litem.name}} [{{litem.role}}] </a> 
-						</h4>
-					</div>
-					<div id="{{litem.id}}" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p align="justify">{{litem.description}}</p>
-							<a href="{{litem.urlink}}" class="btn btn-color">Conference Website</a>										
-						</div>
-					</div>
-				</div>			
+		<div class="row service-v1 margin-bottom-40">
+            {% for litem in site.data.conferences %}
+				<div class="col-md-4 md-margin-bottom-40">
+					<h3>{{litem.name}}</h3>
+					<img class="img-responsive" src="images/{{litem.image}}" alt="">
+					<p>{{litem.description}}</p>
+					<p>For more information, check the <a href="{{litem.urlink}}">conference website</a>.</p>
+				</div>
 			{% endfor %}
-		</div>
+        </div>
 	</div>
 </div>
 
@@ -41,25 +36,15 @@ title: Management
 <!-- Social Clubs -->
 <div class="container">
 	<div class=""><h2>Clubs Membership</h2>
-
-		<div class="panel-group" id="accordion-alt3">
-			{% for conf in site.data.clubs %}
-				<div class="panel">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
-							<i class="fa fa-angle-right"></i> {{litem.name}} [{{litem.role}}] </a> 
-						</h4>
-					</div>
-					<div id="{{litem.id}}" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p align="justify">{{litem.description}}</p>
-							<a href="{{litem.urlink}}" class="btn btn-color">Read More</a>
-						</div>
-					</div>
-				</div>			
+		<div class="row service-v1 margin-bottom-40">
+            {% for litem in site.data.clubs %}
+				<div class="col-md-4 md-margin-bottom-40">
+					<h3>{{litem.name}}</h3>
+					<!-- <img class="img-responsive" src="images/{{litem.image}}" alt=""> -->
+					<p>{{litem.description}}</p>
+					<p>For more information, check the <a href="{{litem.urlink}}">club page</a>.</p>
+				</div>
 			{% endfor %}
-		</div>
-
+        </div>
 	</div>
 </div>
