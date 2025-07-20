@@ -89,27 +89,20 @@ title: Science
 	</ul>
 </div>
 
-<!-- Preprints -->
+
+<!-- Posters -->
 <div class="container">
-	<div class=""><h2>Posters</h2>
-		<div class="panel-group" id="accordion-alt3">
-			{% for litem in site.data.posters %}
-				<div class="panel">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.id}}">
-							<i class="fa fa-angle-right"></i> {{litem.date}}, <em>{{litem.title}}</em> </a>
-						</h4>
-					</div>
-					<div id="{{litem.id}}" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p><strong>Authors:</strong> <em>{{litem.authors}}</em></p>
-							<p><strong>Conference:</strong> <a href="{{litem.confwebpage}}"> {{litem.conference}} </a></p>
-							<!-- <p align="justify"><strong>Abstract:</strong> {{litem.abstract}}</p> -->
-						</div>
-					</div>
-				</div>			
-			{% endfor %}
-		</div>
-	</div>	
+	<div class=""><h2>Posters</h2></div>
+	<!-- <ul class="portfolio-categ filter">
+		<li class="all active"><a href="/">All</a></li>
+		<li class="Invited"><a href="#" title="">Invited</a></li>
+		<li class="Contributed"><a href="#" title="">Contributed</a></li>
+	</ul>
+	<div class="clearfix">
+	</div>-->
+	<ul id="thumbs" class="list-unstyled portfolio">
+		{% for litem in site.data.posters %}
+			<li class="item-thumbs"><i class="fa fa-arrow-circle-right pr-10 colored"></i> {{litem.date}}, <em>{{litem.title}}</em>, <a href="{{litem.confwebpage}}"> {{litem.conference}}</a>. In collaboration with {{litem.authors}}. {{litem.note}}</li>
+		{% endfor %}
+	</ul>
 </div>
