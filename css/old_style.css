@@ -29,7 +29,7 @@ h1,h2, h3, h4, h5, h6 {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:700;
 	line-height:1.1em;
-	color:#333;
+	color:#000;
 	margin-bottom: 20px;
 }
  
@@ -62,6 +62,7 @@ img.img-polaroid {
 .img-box {
 	max-width:100%;
 }
+
 /*  Header
 ==================================== */
  
@@ -84,7 +85,7 @@ header .navbar {
     padding: 0 0 0 15px;
 }
 .navbar-default .navbar-brand{
-color: #61B331;
+color: #14A085;
 }
 
 header .navbar-collapse  ul.navbar-nav {
@@ -214,9 +215,9 @@ header .nav li .dropdown-menu li a {
     color: #FFF;
 }
 .panel-group .panel-heading+.panel-collapse .panel-body {
-    border-top: 1px solid #ddd;
-    color: #fff;
-    background-color: #9C9C9C;
+    border-top: 1px solid #a2a2a2;
+    color: #000;
+    background-color: #fff;
 }
 /* --- menu --- */
 
@@ -245,14 +246,14 @@ header ul.nav li ul li a {
 
 
 .navbar .nav > li > a {
-  color: #848484;
+  color: #a2a2a2;
   text-shadow: none;
   border: 1px solid rgba(255, 255, 255, 0) !important;
 }
 
 .navbar .nav a:hover {
 	background:none;
-	color: #14A085 !important;
+	color: #fff !important;
 }
 
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
@@ -292,7 +293,7 @@ header ul.nav li ul li ul {
   content:none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #14A085;
+color: #fff;
 }
 
 
@@ -580,7 +581,7 @@ section.callaction {
 	padding:0;
 	color:#fefefe;
 	/* margin: 15px; */
-	border-top: 10px solid #11967C;
+	border-top: 10px solid #a2a2a2;
 }
 
 
@@ -615,100 +616,6 @@ section.callaction {
 ul.breadcrumb li a:hover {
 	text-decoration:none;
 }
-
-/* Forms
-============================= */
-
-/* --- contact form  ---- */
-form#contactform input[type="text"] {
-  width: 100%;
-  border: 1px solid #f5f5f5;
-  min-height: 40px;
-  padding-left:20px;
-  font-size:13px;
-  padding-right:20px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-
-}
-
-form#contactform textarea {
-border: 1px solid #f5f5f5;
-  width: 100%;
-  padding-left:20px;
-  padding-top:10px;
-  font-size:13px;
-  padding-right:20px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-
-}
-
-form#contactform .validation {
-	font-size:11px;
-}
-
-#sendmessage {
-	border:1px solid #e6e6e6;
-	background:#f6f6f6;
-	display:none;
-	text-align:center;
-	padding:15px 12px 15px 65px;
-	margin:10px 0;
-	font-weight:600;
-	margin-bottom:30px;
-
-}
-
-#sendmessage.show,.show  {
-	display:block;
-}
- 
-form#commentform input[type="text"] {
-  width: 100%;
-  min-height: 40px;
-  padding-left:20px;
-  font-size:13px;
-  padding-right:20px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-	-webkit-border-radius: 2px 2px 2px 2px;
-		-moz-border-radius: 2px 2px 2px 2px;
-			border-radius: 2px 2px 2px 2px;
-
-}
-
-form#commentform textarea {
-  width: 100%;
-  padding-left:20px;
-  padding-top:10px;
-  font-size:13px;
-  padding-right:20px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-	-webkit-border-radius: 2px 2px 2px 2px;
-		-moz-border-radius: 2px 2px 2px 2px;
-			border-radius: 2px 2px 2px 2px;
-}
-
-
-/* --- search form --- */
-.search{
-	float:right;
-	margin:35px 0 0;
-	padding-bottom:0;
-}
-
-#inner-headline form.input-append {
-	margin:0;
-	padding:0;
-}
-
-
 
 /*  Portfolio
 ================================ */
@@ -943,7 +850,7 @@ blockquote {
 	font-family:'Noto Serif', serif;
 	font-style:italic;
 	padding-left:0;
-	color:#b1cfec;
+	color:#a2a2a2;
 	line-height:1.6em;
 	border:none;
 }
@@ -958,7 +865,7 @@ blockquote cite a:visited 				{ color:#555; }
 
 .pullquote-left {
 	display:block;
-	color:#b1cfec;
+	color:#a2a2a2;
 	font-family:'Noto Serif', serif;
 	font-size:14px;
 	line-height:1.6em;
@@ -967,7 +874,7 @@ blockquote cite a:visited 				{ color:#555; }
 
 .pullquote-right {
 	display:block;
-	color:#b1cfec;
+	color:#a2a2a2;
 	font-family:'Noto Serif', serif;
 	font-size:14px;
 	line-height:1.6em;
@@ -1570,7 +1477,7 @@ article img.pull-right, article .align-right{
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover {
 background: none;
 font-weight: 700;
-color: #26AFF0;
+color: #fff;
 }
 	header .navbar-nav > li {
 padding-bottom: 0px;
@@ -1810,7 +1717,7 @@ padding:50px 0
     padding:15px 30px;
     font-size:21px;
     font-weight:400;
-    color: #b1cfec;
+    color: #a2a2a2;
     background: #14A085;
     border-radius:5px;
 }
@@ -1829,7 +1736,7 @@ padding:50px 0
     position:relative;
     padding:30px;
     padding-left:100px;
-    background: #b1cfec;
+    background: #a2a2a2;
     border-radius:10px;
     box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
     -webkit-transition:all .3s ease-out;
@@ -1837,8 +1744,8 @@ padding:50px 0
 }
 
 .news-item:hover .news-content {
-    background: #b1cfec;
-    color:#d1da38;
+    background: #a2a2a2;
+    color:#fff;
 }
 
 .news-item.right .news-content {
@@ -1872,12 +1779,12 @@ padding:50px 0
 }
 
 .news-item:hover .news-content:after {
-    border-left-color: #b1cfec;
+    border-left-color: #a2a2a2;
 }
 
 .news-item.right:hover .news-content:after {
     border-left-color:transparent;
-    border-right-color: #b1cfec;
+    border-right-color: #a2a2a2;
 }
 
 .news-item .news-content:before {
@@ -1888,7 +1795,7 @@ padding:50px 0
     height:20px;
     right:-55px;
     top:60px;
-    background: #b1cfec;
+    background: #a2a2a2;
     border:3px solid #fff;
     border-radius:50%;
     -webkit-transition:background .3s ease-out;
@@ -1912,7 +1819,7 @@ padding:50px 0
 }
 
 .news-item:hover .news-content .date {
-    color:#d1da38;
+    color:#fff;
 }
 
 .news-content .date p{
@@ -1960,7 +1867,7 @@ padding:50px 0
 .news-item:hover .news-content .read-more:hover,
 .news-item:hover .news-content .read-more:active,
 .news-item:hover .news-content .read-more:focus{
-    color:#d1da38;
+    color:#fff;
 }
 
 .news-content .read-more{
@@ -1989,7 +1896,7 @@ padding:50px 0
 }
 
 .news-item:hover .news-content .read-more:after{
-    color:#d1da38;
+    color:#fff;
 }
 
 .news-content .news-media{

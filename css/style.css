@@ -15,7 +15,6 @@ body {
 	font-weight:300;
 	line-height:1.6em;
 	color:#656565;
-	text-align: justify;
 }
 
 a:active {
@@ -30,7 +29,7 @@ h1,h2, h3, h4, h5, h6 {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:700;
 	line-height:1.1em;
-	color:#0f16f9;
+	color:#000;
 	margin-bottom: 20px;
 }
  
@@ -86,7 +85,7 @@ header .navbar {
     padding: 0 0 0 15px;
 }
 .navbar-default .navbar-brand{
-color: #0f16f9;
+color: #14A085;
 }
 
 header .navbar-collapse  ul.navbar-nav {
@@ -254,7 +253,7 @@ header ul.nav li ul li a {
 
 .navbar .nav a:hover {
 	background:none;
-	color: #d1da38 !important;
+	color: #fff !important;
 }
 
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
@@ -294,7 +293,7 @@ header ul.nav li ul li ul {
   content:none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #d1da38;
+color: #fff;
 }
 
 
@@ -576,7 +575,7 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background: #0f16f9;
+	background: #14A085;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -913,7 +912,7 @@ ul.link-list li{
 	list-style:none;
 }
 footer{
-background: #0f16f9;
+background: #14A085;
 }
 footer ul.link-list li a{
 	color: #FFFFFF;
@@ -1478,7 +1477,7 @@ article img.pull-right, article .align-right{
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover {
 background: none;
 font-weight: 700;
-color: #26AFF0;
+color: #fff;
 }
 	header .navbar-nav > li {
 padding-bottom: 0px;
