@@ -5,7 +5,7 @@
   id: cubewalkers
   journal: PRX Life
   date: December, 2023
-  image: placeholder.png
+  image: cubewalkers.png
 
 
 - title: Effective Connectivity and Bias Entropy Improve Prediction of Dynamical Regime in Automata Networks
@@ -15,7 +15,7 @@
   id: ke_bias_special_issue
   journal: Entropy
   date: February 2023
-  image: placeholder.png
+  image: ke_bias_entropy.png
 
 
 - title: The Distance Backbone of Directed Networks
@@ -25,7 +25,7 @@
   id: directed_backbone
   journal: Complex Networks and Their Applications XI
   date: January 2023
-  image: placeholder.png
+  image: directed_backbone.png
 
 
 - title: Entropic Dynamics on Gibbs Statistical Manifolds
@@ -35,7 +35,8 @@
   id: entropic_dynamics_gibbs
   journal: Entropy
   date: April 2021
-  image: placeholder.png
+  image: ed_gibbs.png
+  credits: Concept figure illustrated by <a href="https://romanayanez.github.io/">Romana Yáñez</a>.
 
 
 - title: Entropic dynamics of networks
@@ -45,7 +46,8 @@
   id: entropic_dynamics_networks
   journal: Northeast Journal of Complex Systems
   date: March 2021
-  image: placeholder.png
+  image: ed_networks.png
+  credits: Concept figure illustrated by <a href="https://romanayanez.github.io/">Romana Yáñez</a>.
 
 
 - title: Smart cities depictions in wikipedia articles - reflections from a text analysis approach
@@ -55,7 +57,7 @@
   id: smart_cities
   journal: 11th ICEGOV 
   date: April 2018
-  image: placeholder.png
+  image: smart_city.png
 
 
 - title: A possible link between pyriproxyfen and microcephaly
@@ -65,7 +67,7 @@
   id: pyriproxyfen
   journal: PLOS Currents
   date: November 2017
-  image: placeholder.png
+  image: pyriproxifen_zika.png
 
 
 - title: Core/shell nanofiber characterization by Raman scanning microscopy 
@@ -75,7 +77,7 @@
   id: nanofiber_raman
   journal: Biomedical Optics Express
   date: February 2017
-  image: placeholder.png
+  image: raman_fiber.png
 
 
 - title: Raman hyperspectral imaging of iron transport across membranes in cells
@@ -85,4 +87,4 @@
   id: iron_transport_raman
   journal: Imaging Spectrometry XXI
   date: September 2016
-  image: placeholder.png
+  image: raman_iron.png

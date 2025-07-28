@@ -36,17 +36,15 @@ title: Teaching
 <!-- Outreach -->
 <div class="container">
 	<div class=""><h2>Outreach</h2>
-		<div class="panel-group" id="accordion-alt3">
-			{% for litem in site.data.outreach %}
-				<div class="col-lg-6">
-					<div class="textbox">
-						<h4>{{litem.event}}</h4>
-						<p align="left">{{litem.dates}}</p>
-						<p align="right"> <strong>{{litem.university}}</strong></p>
-						<p align="justify">{{litem.description}}</p>
-					</div>
-				</div>	
-			{% endfor %}
-		</div>
+		{% for litem in site.data.outreach %}
+			<div class="col-lg-6">
+				<div class="textbox">
+					<h4>{{litem.event}}</h4>
+					<p align="left">{{litem.dates}}</p>
+					<p align="right"> <strong>{{litem.university}}</strong></p>
+					<p align="justify">{{litem.description}}</p>
+				</div>
+			</div>	
+		{% endfor %}
 	</div>
 </div>
