@@ -51,14 +51,6 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom:0;
 }
 
-img.img-polaroid {
-	margin:0 0 20px 0;
-}
-
-.img-box {
-	max-width:100%;
-}
-
 /* Header */
 
 header .navbar {
@@ -1590,4 +1582,15 @@ padding-left:20px;
 
 .news-item:hover .news-content .read-more:after{
 color:#fff;
+}
+
+
+/* STYLES NOT IN USE, BUT MAYBE USEFUL */
+
+img.img-polaroid {
+	margin:0 0 20px 0;
+}
+
+.img-box {
+	max-width:100%;
 }
