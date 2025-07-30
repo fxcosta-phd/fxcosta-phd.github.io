@@ -31,13 +31,11 @@ title: Teaching
 		{% endfor %}
 
 		<div class="row">
-			{% for lsem in site.data.monitor %}
-				<div class=""><h3>{{lsem.year}}</h3>
-					{% if lsem.details %}
-					<p>{{ lsem.details }}</p>
-					{% endif %}
-					<div class="skill-home">
-						<div class="skill-home-solid clearfix">
+			<div class="skill-home">
+				<div class="skill-home-solid clearfix">
+					{% for lsem in site.data.monitor %}
+						<div class=""><h3>{{lsem.year}}</h3>
+							
 							{% for litem in lsem.classes %}
 								<div class="col-md-3 text-center">
 									<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> <div class="box-area">
@@ -48,9 +46,9 @@ title: Teaching
 								</div>
 							{% endfor %}
 						</div>
-					</div>
+					{% endfor %}
 				</div>
-			{% endfor %}
+			</div>
 		</div>
 
 	</div>
