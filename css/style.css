@@ -40,27 +40,26 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 .row,.row-fluid {
-margin-bottom:30px;
+	margin-bottom:30px;
 }
 
 .row .row,.row-fluid .row-fluid{
-margin-bottom:30px;
+	margin-bottom:30px;
 }
 
 .row.nomargin,.row-fluid.nomargin {
-margin-bottom:0;
+	margin-bottom:0;
 }
 
 img.img-polaroid {
-margin:0 0 20px 0;
+	margin:0 0 20px 0;
 }
 
 .img-box {
-max-width:100%;
+	max-width:100%;
 }
 
-/*  Header
-==================================== */
+/* Header */
 
 header .navbar {
 margin-bottom: 0;
