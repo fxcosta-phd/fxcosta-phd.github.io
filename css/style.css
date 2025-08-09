@@ -9,6 +9,11 @@ Do not remove the back-link in this web template
 @import url('font-awesome.css');  
 @import url('animate.css');
 
+:root {
+  --mainblue: #1233aabb;
+  --white: #ffffff;
+}
+
 /* General text formatting */
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -75,7 +80,7 @@ padding: 0 0 0 15px;
 
 /* COLOR OF MY NAME IN THE HEADER */
 .navbar-default .navbar-brand{
-	color: #1233aabb;
+	color: var(--mainblue);
 }
 
 header .navbar-collapse  ul.navbar-nav {
@@ -486,7 +491,7 @@ padding: 50px 0 0;
 /* page headline  */
 
 #inner-headline{
-background: #14A085;
+background: var(--mainblue);
 position: relative;
 margin: 0;
 padding: 0;
@@ -587,7 +592,7 @@ width: 90%;
 height: 91%;
 opacity: 0.50;
 filter: alpha(opacity=80);
-background: #14A085;
+background: var(--mainblue);
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -682,7 +687,7 @@ list-style:none;
 }
 
 footer{
-background: #14A085;
+background: var(--mainblue);
 }
 
 footer ul.link-list li a{
@@ -817,7 +822,7 @@ color:#f5f5f5;
 padding:0;
 padding-top:30px;
 margin:20px 0 0 0;
-background: #14A085;
+background: var(--mainblue);
 }
 
 #sub-footer p{
