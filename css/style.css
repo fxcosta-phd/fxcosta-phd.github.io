@@ -12,6 +12,7 @@ Do not remove the back-link in this web template
 :root {
   --mainblue: #1233aabb;
   --white: #ffffff;
+  --greybox: #efefef;
 }
 
 /* General text formatting */
@@ -206,7 +207,7 @@ color: #FFF;
 }
 
 .panel-group .panel-heading+.panel-collapse .panel-body {
-border-top: 1px solid #a2a2a2;
+border-top: 1px solid var(--greybox);
 color: #000;
 background-color: #fff;
 }
@@ -1214,7 +1215,7 @@ border: 1px solid #929292;
 }
 
 .textbox {
-background-color: #EFEFEF;
+background-color: var(--greybox);
 padding: 4px 25px;
 }
 
