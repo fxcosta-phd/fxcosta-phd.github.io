@@ -18,9 +18,10 @@ title: Teaching
 							<div class="col-md-3 text-justify">
 								<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> 
 								<div class="textbox">
-									<h4>{{litem.discipline}}</h4>
+									<h4>{{litem.title}}</h4>
+									<h5>{{litem.codes}}</h5>
 									<p align="right"><strong>{{litem.university}}</strong></p>
-									<em>Role:</em>{{litem.role}}
+									<em>Role:</em> {{litem.role}}
 								</div>
 							</div>
 						{% endfor %}
@@ -36,18 +37,16 @@ title: Teaching
 					<p>{{ lsem.details }}</p>
 					{% endif %}
 					<div class="skill-home">
-						<div class="skill-home-solid clearfix">
-							{% for litem in lsem.classes %}
-								<div class="col-md-3 text-justify">
-									<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> 
-									<div class="textbox">
-										<h4>{{litem.discipline}}</h4>
-										<p align="right"><strong>{{litem.university}}</strong></p>
-										<em>Role:</em> {{litem.role}}</p>
-									</div>
+						{% for litem in lsem.classes %}
+							<div class="col-md-3 text-justify">
+								<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> 
+								<div class="textbox">
+									<h4>{{litem.discipline}}</h4>
+									<p align="right"><strong>{{litem.university}}</strong></p>
+									<em>Role:</em> {{litem.role}}</p>
 								</div>
-							{% endfor %}
-						</div>
+							</div>
+						{% endfor %}
 					</div>
 				</div>
 			{% endfor %}

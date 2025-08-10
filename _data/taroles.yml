@@ -1,12 +1,14 @@
 - year: 2021
   details: I was awarded the <strong>Teaching Assistant of the Year - 2020/2021 Academic Year</strong> recognition for my performance in the classes below. 
   classes: 
-    - discipline: Computational Methods (A PHY 477/477Y/577)
+    - title: Computational Methods 
+      codes: A PHY 477/477Y/577
       university: State University of New York at Albany
       role: Grading student assignments. 
       icon: 'fa-laptop'
       color: 'c4'
-    - discipline: Optics (A PHY 430/430Y/530)
+    - title: Optics 
+      codes: A PHY 430/430Y/530
       university: State University of New York at Albany
       role: Grading student assignments.
       icon: 'fa-bolt'
@@ -15,22 +17,26 @@
 
 - year: 2020
   classes: 
-    - discipline: Introduction to Cosmology (A PHY 443/443Y/543)
+    - title: Introduction to Cosmology 
+      codes: A PHY 443/443Y/543
       university: State University of New York at Albany
       role: Grading student assignments. 
       icon: 'fa-star'
       color: 'c4'
-    - discipline: Quantum Physics I (A PHY 440)
+    - title: Quantum Physics I 
+      codes: A PHY 440
       university: State University of New York at Albany
       role: Grading student assignments.
       icon: 'fa-barcode'
       color: 'c4'
-    - discipline: Statistical Mechanics (A PHY 517)
+    - title: Statistical Mechanics 
+      codes: A PHY 517
       university: State University of New York at Albany
       role: Grading student assignments. 
       icon: 'fa-cogs'
       color: 'c3'
-    - discipline: Thermodynamics and Statistical Physics (A PHY 460)
+    - title: Thermodynamics and Statistical Physics
+      codes: A PHY 460
       university: State University of New York at Albany
       role: Grading student assignments.
       icon: 'fa-fire'
@@ -39,17 +45,20 @@
 
 - year: 2019
   classes: 
-    - discipline: Physics III Structure of Matter (A PHY 240)
+    - title: Physics III Structure of Matter 
+      codes: A PHY 240
       university: State University of New York at Albany
       role: Grading student assignments. 
       icon: 'fa-th'
       color: 'c4'
-    - discipline: Physics Lab I (A PHY 145)
+    - title: Physics Lab I 
+      codes: A PHY 145
       university: State University of New York at Albany
       role: Lecturing and grading student assignments.
       icon: 'fa-flask'
       color: 'c4'
-    - discipline: Physics Lab II (A PHY 155)
+    - title: Physics Lab II 
+      codes: A PHY 155
       university: State University of New York at Albany
       role: Lecturing and grading student assignments.
       icon: 'fa-flask'
