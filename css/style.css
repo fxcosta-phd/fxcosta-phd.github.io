@@ -144,7 +144,7 @@ transition: all .3s ease;
 }
 
 .dropdown-menu li a:hover {
-color: #fff !important;
+color: var(--mainpurple) !important;
 }
 
 header .nav .caret {
@@ -155,7 +155,7 @@ border-top-color: #f5f5f5;
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-background-color: var(--mainyellow);
+background-color: var(--mainpurple);
 }
 
 .dropdown-menu  {
@@ -247,7 +247,7 @@ border: 1px solid rgba(255, 255, 255, 0) !important;
 
 .navbar .nav a:hover {
 background: none;
-color: #fff !important;
+color: var(--mainpurple) !important;
 }
 
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
@@ -290,7 +290,7 @@ content: none;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #fff;
+color: var(--mainpurple);
 }
 
 ul.nav li.dropdown a {
