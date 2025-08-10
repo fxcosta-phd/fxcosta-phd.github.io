@@ -7,6 +7,9 @@ title: Teaching
 <!-- Teaching Assistant -->
 <div class="container">
 	<div class=""><h2>Teaching Assistant</h2>
+
+		Color denotes if they were taught in the <div class="c4">first</div> or <div class="c3">second</div> semester of the year.
+
 		{% for lsem in site.data.taroles %}
 			<div class=""><h3>{{lsem.year}}</h3>
 				<div class="row">
@@ -33,7 +36,7 @@ title: Teaching
 		<div class="row nomargin">
 			{% for litem in site.data.monitor %}
 			<div class="col-md-3 text-center">
-			<div class=""><h3>{{litem.year}}</h3></div>
+			<div class="text-left"><h3>{{litem.year}}</h3></div>
 				<div class="skill-home">						
 					<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> 
 					<div class="textbox">
