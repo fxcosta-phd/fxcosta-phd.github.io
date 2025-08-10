@@ -15,12 +15,12 @@ title: Teaching
 					{% endif %}
 					<div class="skill-home">
 						{% for litem in lsem.classes %}
-							<div class="col-md-3 text-justify">
+							<div class="col-md-3 text-center">
 								<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> 
 								<div class="textbox">
 									<h4>{{litem.title}}</h4>
 									<h5>{{litem.codes}}</h5>
-									<p align="right"><strong>{{litem.university}}</strong></p>
+									<p><strong>{{litem.university}}</strong></p>
 									<em>Role:</em> {{litem.role}}
 								</div>
 							</div>
@@ -38,11 +38,12 @@ title: Teaching
 					{% endif %}
 					<div class="skill-home">
 						{% for litem in lsem.classes %}
-							<div class="col-md-3 text-justify">
+							<div class="col-md-3 text-center">
 								<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> 
 								<div class="textbox">
-									<h4>{{litem.discipline}}</h4>
-									<p align="right"><strong>{{litem.university}}</strong></p>
+									<h4>{{litem.title}}</h4>
+									<h5>{{litem.codes}}</h5>
+									<p><strong>{{litem.university}}</strong></p>
 									<em>Role:</em> {{litem.role}}</p>
 								</div>
 							</div>
