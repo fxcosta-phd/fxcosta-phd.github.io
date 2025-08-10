@@ -1,28 +1,25 @@
 - year: 2018
-  classes: 
-    - title: Physics Lab I (
-      codes: A PHY 145
-      university: State University of New York at Albany
-      role: Lecturing and grading student assignments.
-      icon: 'fa-flask'
-      color: 'c3'
+  title: Physics Lab I
+  codes: A PHY 145
+  university: State University of New York at Albany
+  role: Lecturing and grading student assignments.
+  icon: 'fa-flask'
+  color: 'c3'
 
 
 - year: 2016
-  classes: 
-    - title: Introduction to Computational Physics 
-      codes: FI587
-      university: Federal University of Pernambuco
-      role: Lecture planning and assistance, as well as grading student assignments. 
-      icon: 'fa-laptop'
-      color: 'c3'
+  title: Introduction to Computational Physics 
+  codes: FI587
+  university: Federal University of Pernambuco
+  role: Lecture planning and assistance, as well as grading student assignments. 
+  icon: 'fa-laptop'
+  color: 'c3'
 
 
 - year: 2014
-  classes: 
-    - title: Experimental Physics L1
-      codes: FI130
-      university: Federal University of Pernambuco
-      role: Lecture assistance and grading student assignments. 
-      icon: 'fa-flask'
-      color: 'c3'
+  title: Experimental Physics L1
+  codes: FI130
+  university: Federal University of Pernambuco
+  role: Lecture assistance and grading student assignments. 
+  icon: 'fa-flask'
+  color: 'c3'
