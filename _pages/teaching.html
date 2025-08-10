@@ -16,7 +16,7 @@ title: Teaching
 					<div class="skill-home">
 						<div class="skill-home-solid clearfix">
 							{% for litem in lsem.classes %}
-								<div class="col-md-4 text-justify">
+								<div class="col-md-3 text-justify">
 									<span class="icons {{litem.color}}"><i class="fa {{litem.icon}}"></i></span> 
 									<div class="textbox">
 										<h4>{{litem.discipline}}</h4>
@@ -45,7 +45,7 @@ title: Teaching
 									<div class="textbox">
 										<h4>{{litem.discipline}}</h4>
 										<p align="right"><strong>{{litem.university}}</strong></p>
-										<em>Role:</em> {{litem.role}}
+										<em>Role:</em> {{litem.role}}</p>
 									</div>
 								</div>
 							{% endfor %}
