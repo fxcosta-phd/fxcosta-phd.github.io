@@ -13,6 +13,8 @@ Do not remove the back-link in this web template
   --mainblue: #1233aabb;
   --white: #ffffff;
   --greybox: #efefef;
+  --mainyellow: #ffdf00;
+  --mainpurple: #9932cc;
 }
 
 /* General text formatting */
@@ -153,7 +155,7 @@ border-top-color: #f5f5f5;
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-background-color: #fff;
+background-color: var(--mainyellow);
 }
 
 .dropdown-menu  {
@@ -362,12 +364,12 @@ margin-bottom:50px;
 
 .c3{
 border: #ffdf00 1px solid;
-background: #ffdf00;
+background: var(--mainyellow);
 }
 
 .c4{
 border: #9932cc 1px solid;
-background: #9932cc;
+background: var(--mainpurple);
 }
 
 .skill-home .icons {
@@ -655,17 +657,17 @@ margin-left: 6px;
 /* --- button --- */
 .btn{
 	text-align: center;
-background: #318CCA;
-color: #fff;
-border-radius: 0;padding: 10px 30px;
+	background: var(--mainblue);
+	color: #fff;
+	border-radius: 0;padding: 10px 30px;
 }
 
 .btn-theme {
-color: #fff;
+	color: #fff;
 }
 
 .btn-theme:hover {
-color: #eee;
+	color: #eee;
 }
 
 /* --- list style --- */
@@ -1271,7 +1273,7 @@ margin:20px 30px 0 0;
 position:relative;
 padding:30px;
 padding-left:100px;
-background: #a2a2a2;
+background: var(--mainblue);
 border-radius:10px;
 box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
 -webkit-transition:all .3s ease-out;
@@ -1279,7 +1281,7 @@ transition:all .3s ease-out;
 }
 
 .news-item:hover .news-content {
-background: #a2a2a2;
+background: var(--mainblue);
 color:#fff;
 }
 
@@ -1330,7 +1332,7 @@ width:20px;
 height:20px;
 right:-55px;
 top:60px;
-background: #a2a2a2;
+background: var(--mainblue);
 border:3px solid #fff;
 border-radius:50%;
 -webkit-transition:background .3s ease-out;
@@ -1348,13 +1350,13 @@ width:80px;
 height:80px;
 left:10px;
 text-align:center;
-color: #14A085;
+color: var(--mainpurple);
 -webkit-transition:color .3s ease-out;
 transition:color .3s ease-out;
 }
 
 .news-item:hover .news-content .date {
-color:#fff;
+color: var(--mainyellow);
 }
 
 .news-content .date p{
@@ -1420,7 +1422,7 @@ padding-left:15px;
 font-family:'FontAwesome';
 font-size:21px;
 line-height:21px;
-color: #14A085;
+color: var(--mainpurple);
 vertical-align:middle;
 -webkit-transition:padding .3s ease-out;
 transition:padding .3s ease-out;
@@ -1431,7 +1433,7 @@ padding-left:20px;
 }
 
 .news-item:hover .news-content .read-more:after{
-color:#fff;
+color:var(--mainyellow);
 }
 
 
