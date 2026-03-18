@@ -1,4 +1,14 @@
+- name: Networks in Biology and Medicine 2026 Symposium
+  image: netbiomed_logo.png
+  description: NetBioMed 2026 will bring together researchers working from molecular relationships to individual patient treatments towards solving complex biomedical problems across scales. Logo designed by <a href="https://romanayanez.github.io/">Romana Yáñez</a>.<br> I was the <strong>symposium program chair</strong> organizing the event alongside an amazing team. 
+  urlink: https://netbiomed-symposium.github.io/
+
+- name: Complex Networks 2025 - 14th International Conference on Complex Networks and their Applications
+  image: logo_cna.png
+  description: The International Conference on Complex Networks and their Applications aims at bringing together researchers from different scientific communities working on areas related to complex networks. Two types of contributions are welcome: theoretical developments arising from practical problems, and case studies where methodologies are applied. Both contributions are aimed at stimulating the interaction between theoreticians and practitioners.<br> I was one of the <strong>local arrangement chairs</strong> organizing the event alongside an amazing team. 
+  urlink: https://2025.complexnetworks.org/
+
 - name: Networks in Biology and Medicine 2025 Symposium
   image: netbiomed_logo.png
   description: NetBioMed 2025 brought together researchers working with Machine Learning, Digital Twins and Complex Systems in order to incentivize transdisciplinary collaborations leveraging the potentials of network science tools in the future of biology and medicine. Logo designed by <a href="https://romanayanez.github.io/">Romana Yáñez</a>.<br> I was one of the <strong>symposium chairs</strong> organizing the event alongside an amazing team. 
-  urlink: https://netbiomed2025.github.io/
+  urlink: https://netbiomed-symposium.github.io/2025/
